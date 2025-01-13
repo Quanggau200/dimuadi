@@ -1,0 +1,43 @@
+.main
+{
+    width: 992px;
+    margin: 0 auto;
+    background-color: #e5e5e5;
+    max-width: 100%;
+    
+}
+.box_scroll
+{
+    gap: 15px;
+}
+.item_select
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.item_icon 
+{
+    height: 40px;
+    width: 40px;  
+    background-color: red;
+    object-fit: cover;  
+    max-width: 100%;
+    
+}
+.item_icon img
+{
+    margin-top: 9px;
+}
+#icon_one
+{
+    height: 25px;
+}
+.scroll_item{
+    width: 66px;
+    height: 84px;
+}
+.item_name_select
+{
+    font-size: 12px;
+}

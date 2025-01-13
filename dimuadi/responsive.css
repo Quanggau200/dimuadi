@@ -1,0 +1,6 @@
+@media screen and (max-width:900px) {
+    .banner_select
+    {
+        overflow: scroll;
+    }
+}
