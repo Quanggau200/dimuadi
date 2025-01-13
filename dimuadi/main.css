@@ -1,5 +1,6 @@
 @import url("header.css");
 @import url("container.css");
+@import url('responsive.css');
 a,
 input,
 button,
