@@ -150,7 +150,11 @@
       background-size: cover;
   
 }
-.best_seller .title_section ,.hot_local .title_section
+.list_item_sale .title_section
+{
+    height: 62px;
+}
+ .title_section
 {
     height: 56px;
 }
@@ -177,4 +181,32 @@
 .hot_local_logo{
     gap: 43px;
     padding: var(--padding--common ) 0;
+}
+.slick-list
+{
+    padding: 0 10px;
+}
+.slick-list li
+{
+    padding: 14px 0;
+    line-height: 20px;
+    font-size: 14px;
+    border-bottom: 1px solid #D9D9D9;
+
+}
+.btn_pres,.btn_next
+{
+    border-bottom: none !important;
+}
+.active
+{
+    border-bottom: 1px solid #3AA12A !important;
+}
+.btn_arrow
+{
+    left: 10px;
+}
+.btn_next
+{
+    right: 10px;
 }
