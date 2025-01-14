@@ -8,6 +8,10 @@
 }
 .box_scroll
 {
+    gap: 16px;
+}
+.item_sale
+{
     gap: 15px;
 }
 .item_select
@@ -21,8 +25,7 @@
     height: 40px;
     width: 40px;  
     background-color: red;
-    object-fit: cover;  
-    max-width: 100%;
+    object-fit: cover; 
     
 }
 .item_icon img
@@ -40,4 +43,138 @@
 .item_name_select
 {
     font-size: 12px;
+}
+.list_item_sale
+{
+    background: #00baf1;
+}
+.number
+{
+    color: var(--color--count);
+    font-size: 16px;   
+}
+.number label
+{
+    background-color: var(--color--count);
+    font-weight: bold;
+    color:white;
+    font-size: 16px;
+    border-radius: 6px;
+    width: 30px;
+    height: 30px;
+    padding: 6px;
+    line-height: 17px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+.number span
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.title_section
+{
+    height: 62px;
+}
+.name_item
+{   padding-bottom: 10px;
+    font-size: 13px;
+    color: var(--color--item--sale);
+}
+.old_price
+{
+    color: var( --color--header);
+    line-height: 24px;
+}
+.new_price
+{
+    color: var(--color--item--sale);
+    line-height: 24px;
+}
+.bought
+{
+    font-size: 14px;
+    color: var(  --color--item--bought);
+}
+.see_more
+{
+    right: 10px;
+}
+
+.voucher .voucher_headding
+{
+    padding-right: 10px;
+}
+.select_item_voucher
+{
+    padding-left: var(--padding--headding);
+    padding-top: var(--padding--headding);
+    padding-bottom: var(--padding--headding);
+}
+.voucher_id
+{
+    padding-right: var( --padding--headding);
+}
+.voucher_id span
+{
+    font-size: 12px;
+    color: var( --color--dateoffuse);
+}
+.infor_voucher
+{
+    padding: 0 var(--padding--common) ;
+}
+.infor_voucher p
+{
+    color: var(--color--voucher);
+}
+.infor_voucher .infor_sale
+{
+    font-size: 12px;
+    color: var(--color--infor--voucher);
+}
+.infor_date span
+{
+    font-size: 12px;
+}
+.infor_date button
+{
+    padding: 6px 11px ;
+    font-size: 12px;
+    background: var(--color--button);
+    color: white;
+}
+.best_seller
+{  
+    background: url('https://shop.dimuadi.vn/_next/static/media/bg-prod-sale.f277666a353432da77d84d9cd5d74d3e.jpg') ;
+      background-size: cover;
+  
+}
+.best_seller .title_section ,.hot_local .title_section
+{
+    height: 56px;
+}
+.best_seller .name_item
+{
+    padding: 0;
+}
+.best_seller .bought
+{
+    margin-top: 2px;
+}
+.contain_infor
+{
+    padding-bottom: var(--padding--common);
+}
+.best_seller .title_headding
+{
+    color: var();
+}
+.text_color
+{
+    color: var( --color--item--sale);
+}
+.hot_local_logo{
+    gap: 43px;
+    padding: var(--padding--common ) 0;
 }

@@ -92,6 +92,8 @@ video {
   vertical-align: baseline;
   text-decoration: none;
   color: black;
+  vertical-align: middle;
+  box-sizing: border-box;
 }
 body,
 html {
@@ -135,7 +137,14 @@ html {
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --color--header:#899296
+  --color--header:#899296;
+  --color--dateoffuse:#757575;
+  --color--button:#44BD32;
+  --color--count:#D6001C;
+  --color--voucher:#0097E6;
+  --color-infor-voucher:#212121;
+  --color--item--sale:#3D3F40;
+  --color--item--bought:#004C73;
   --bs-primary-rgb: 13, 110, 253;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
