@@ -25,6 +25,10 @@
         min-width: 158px;
         text-align: center;
     }
+    .slick-list
+{
+    justify-content: unset;
+}
 
 
 }
@@ -38,5 +42,19 @@
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
   
+
+}
+@media screen and (max-width:385px)
+{
+    .list_item_banner,.banner
+    {
+        display: none !important;
+    }
+    .mobile,.banner_under_mobile 
+    {
+    display: block !important;
+    }
+    
+
 
 }

@@ -180,6 +180,7 @@
 }
 .slick-list
 {
+    justify-content: center;
     padding: 0 10px;
 }
 .slick-list li
@@ -223,5 +224,8 @@
 {
     grid-template-columns: repeat(5, minmax(0, 1fr));
 }
-
+.mobile ,.banner_under_mobile
+{
+    display: none;
+}
 
