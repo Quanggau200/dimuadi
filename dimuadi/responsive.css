@@ -12,9 +12,18 @@
     {
         display: none;
     }
-    .logo_mobile
+    .logo_mobile,.mobile_search
     {
         display: block;
+    }
+    .btn_pres,.btn_next
+    {
+        display: none;
+    }
+    .slick-list li
+    {
+        min-width: 158px;
+        text-align: center;
     }
 
 

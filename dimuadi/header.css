@@ -9,7 +9,7 @@
 {
     background-color: #e5e5e5; 
 }
-.logo_mobile {
+.logo_mobile,.mobile_search {
   display: none;
 }
 
