@@ -1,7 +1,33 @@
 @media screen and (max-width:900px) {
-    .banner_select,.box-scroll
+    .banner_select,.box-scrollm,.item_sale,.item_voucher,.slick-list 
     {
-        overflow: scroll;
+        overflow-x: scroll;
     }
+    .list_item_home,.hot_local_logo
+    {
+        justify-content: unset;
+        overflow-x: scroll;
+    }
+    .search,.logo
+    {
+        display: none;
+    }
+    .logo_mobile
+    {
+        display: block;
+    }
+
+
+}
+@media screen and (max-width:500px) {
+    .search,.logo
+    {
+        display: none;
+    }
+    .item_recommmen
+    {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  
 
 }
