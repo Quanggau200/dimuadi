@@ -1,52 +1,33 @@
-
-.footer
-{
-    background: var(--color--footer--main);
+.footer {
+  background: var(--color--footer--main);
 }
-.footer_down
-{
-    background: var( --color--under-footer);
+.footer_down {
+  background: var(--color--under-footer);
 }
-.footer_container,.bottom_footer
-{
-    max-width: 992px;
+.footer_container,
+.bottom_footer {
+  max-width: 992px;
 }
-.bottom_footer
-{
-    padding: 20px 0 ;
+.bottom_footer {
+  padding: 20px 0;
 }
-.footer-detail
-{
-    padding: 40px 15px;
+.footer-detail {
+  padding: 40px 15px;
 }
-.footer_container h6
-{
-    margin: 0 0 10px;
-    font-size: 14px;
+.footer_container h6 {
+  margin: 0 0 10px;
+  font-size: 14px;
 }
-.footer_container li a
-{
-    font-weight: 400;
-    font-size: 12px;
-    padding-bottom: 5px;
-    display: block;
+.footer_container li a {
+  font-weight: 400;
+  font-size: 12px;
+  padding-bottom: 5px;
+  display: block;
 }
-.flow_dimuadi li a ,.download_dimuadi li a
-{
-    padding-bottom: 10px;
+.flow_dimuadi li a,
+.download_dimuadi li a {
+  padding-bottom: 10px;
 }
-.bottom_footer
-{
-    font-size: 12px;
+.bottom_footer {
+  font-size: 12px;
 }
-
-
-
-
-
-
-
-
-
-
-

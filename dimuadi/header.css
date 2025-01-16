@@ -2,29 +2,25 @@
   height: 36px;
   background-color: #e5e5e5;
   max-width: 992px;
-  
-
 }
-.header
-{
-    background-color: #e5e5e5; 
+.header {
+  background-color: #e5e5e5;
 }
-.logo_mobile,.mobile_search {
+.logo_mobile,
+.mobile_search {
   display: none;
 }
-
-
 .header_top ul li::before {
-    content: '●'; 
-    font-size: 12px; 
-    color: black; 
-    display: inline-block;
-    width: 1em; 
-  }
-.header_top ul li:first-child::before {
-    content: ''; 
+  content: "●";
+  font-size: 12px;
+  color: black;
+  display: inline-block;
+  width: 1em;
 }
-  
+.header_top ul li:first-child::before {
+  content: "";
+}
+
 .free img {
   width: 20px;
   height: 20px;
@@ -45,7 +41,8 @@
 .toogle {
   padding: 0 12px 7px 14px;
 }
-.logo,.logo_mobile {
+.logo,
+.logo_mobile {
   padding: 0 12px 7px 0;
 }
 .search {
